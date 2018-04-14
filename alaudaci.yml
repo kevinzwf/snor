@@ -1,6 +1,6 @@
 version: "0.1.0"
 pre_ci_boot:
- image: 10.29.0.5:5000/shares/compileold
+ image: 10.29.0.5:5000/shares/compile
  tag: "latest"
 ci:
  - mvn package
@@ -10,5 +10,5 @@ sonarqube:
  code_encoding: "UTF-8"
  code_language: "java"
  code_scan_path: "src"
- integration_name: "ec3304e8-d3a7-4bdf-ae5c-7ea2aab25a15"
+ integration_name: "63acbcfb-3fd9-4061-8fc5-42e5cca3d48a"
  quality_gate: "SonarQube way"
