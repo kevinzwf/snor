@@ -10,5 +10,5 @@ sonarqube:
  code_encoding: "UTF-8"
  code_language: "java"
  code_scan_path: "src"
- integration_name: "63acbcfb-3fd9-4061-8fc5-42e5cca3d48a"
+ integration_name: "0512239a-3956-49e8-b92e-f9c2dfaa696a"
  quality_gate: "SonarQube way"
